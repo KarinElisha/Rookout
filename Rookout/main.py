@@ -28,7 +28,8 @@ def crc_check(data, div):
 
 
 # returning crc value
-rook.start(token='256a0061380f069ba619088a32f94d9fe956798d5fe06da8cd3fef1dbada75ac', labels={"env":"dev"})
+if __name__ == "__main__":
+    rook.start(token='256a0061380f069ba619088a32f94d9fe956798d5fe06da8cd3fef1dbada75ac', labels={"env":"dev"})
 
 while 1 > 0:
     print("Enter data: ")
